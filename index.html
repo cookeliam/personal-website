@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src='script.js'></script>
+    <title>Liam Cooke</title>
+</head>
+<body>
+    <header id='nav'>
+        <h3 id='name'>Liam Cooke.</h3>
+        <nav>
+            <a id='menu' class='menu'><img src='images/icon-menu.svg'></a>
+            <ul id='nav-list'>
+                <li><a href='/'>Home</a></li>
+                <li><a href='#a-about'>About Me</a></li>
+                <li><a href='#a-projects'>Projects</a></li>
+                <li><a href='#a-contact'>Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id='main'>
+        <img class='main-left' src='images/left.svg'>
+        <img class='main-middle' src='images/middle.svg'>
+        <img class='main-right' src='images/right.svg'>
+
+        <h1>Aspiring Web <br> Designer & Developer</h1>
+        <p>I am a senior computer science major at Stony Brook University pursuing 
+            the advancement of my skills in UI/UX design and web development. 
+            I value clean, purposeful, intuitive designs that focus on quality 
+            and emphasize the user. I am currently searching for front-end, 
+            full-stack, and software engineering internship or full-time positions.</p>
+        <button class="button fill"><a href="mailto:me@liamcooke.dev">Contact Me</a></button>
+        <button class="button resume"><a href='files/resume.pdf' target='_blank'>View Resume</a></button>
+        <span class='icons'>
+            <a href='https://github.com/cookeliam' target='_blank' class='icon'><img src='images/icon-github.svg'></a>
+            <a href='https://www.linkedin.com/in/cookeliam/' target='_blank' class='icon'><img src='images/icon-linkedin.svg'></a>
+        </span>
+        <img class='main-bg' src='images/main-bg.svg'>
+    </div>
+
+    <a class="anchor" id="a-about"></a>
+    <div id='about'>
+        <img class ='profile' src='images/profile.png'>
+        <div class='content'>
+            <h2>About Me</h2>
+            <p>My passion for computer science started by making newsletters on 
+                Microsoft Publisher in 4th grade and continued to blossom through
+                the creation of my first website in high school. I've since then grown
+                to program full-stack web applications and even teach others programming
+                concepts through languages like Python, Java, and Javascript.
+            </p>
+            <button class="button fill"><a href='about.html'>Read More</a></button>
+        </div>
+    </div>
+
+    <a class="anchor" id="a-projects"></a>
+    <div id='projects'>
+        <div class='content'>
+            <h2>Projects</h2>
+            <p>These are some awesome projects I've built in the past. I'm always
+                looking to improve my skills by creating my own projects, so stay tuned
+                for plenty more to come!
+            </p>
+        </div>
+        <div class='cards'>
+            <div class='project-card left'>
+                <h4>mockOverflow</h4>
+                <p class='description'>MongoDB React Node.js</p>
+                <p>MERN stack web application based on the popular StackOverflow website.</p>
+                <a href='projects/mockOverflow.html'><button class="button fill-dark">Read More</button></a>
+            </div>
+            <div class='project-card right'>
+                <h4>Mesters</h4>
+                <p class='description'> HTML CSS Javascript SQL PHP</p>
+                <p>Database front-end utilized for uploading and studying exam cirricula.</p>
+                <a href='projects/mesters.html'><button class="button fill-dark">Read More</button></a>
+            </div>
+        </div>
+    </div>
+
+    <a class="anchor" id="a-contact"></a>
+    <div id='contact'>
+        <div class='content'>
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out for job inquiries, ideas, or to just talk!</p>
+            <div class='footer-cta'>
+                <button class="button fill"><a href="mailto:me@liamcooke.dev">Get In Touch</a></button>
+                <span class='icons'>
+                    <a href='https://github.com/cookeliam' target='_blank' class='icon'><img src='images/icon-github.svg'></a>
+                    <a href='https://www.linkedin.com/in/cookeliam/' target='_blank' class='icon'><img src='images/icon-linkedin.svg'></a>
+                </span>
+            </div>
+        </div>
+        <img class='footer-bg' src='images/footer-bg.svg'>
+        <img class='footer-left' src='images/left.svg'>
+        <img class='footer-middle' src='images/middle.svg'>
+        <img class='footer-right' src='images/right.svg'>
+    </div>
+</body>
+</html>
